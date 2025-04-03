@@ -1,0 +1,107 @@
+{
+    "product": {
+        "inputInfo": [
+            {
+                "id": "product",
+                "name": "productId",
+                "lable": "Product Id"
+            },
+            {
+                "id": "productName",
+                "name": "productName",
+                "lable": "Product Name"
+            }
+        ],
+        "title": "Product Form"
+    },
+    "component": {
+      "inputInfo": [
+        {
+            "id": "productName",
+            "name": "productName",
+            "lable": "Product Name"
+        },
+        {
+            "id": "componentName",
+            "name": "componentName",
+            "lable": "Component Name"
+        },
+        {
+            "id": "description",
+            "name": "description",
+            "lable": "Description"
+        }
+    ],
+    "title": "Component Form"
+},
+    "category":{
+     "inputInfo": [
+        {
+           
+            "id": "category",
+            "name": "category",
+            "lable": "Category"
+        }
+    ],
+    "title": "Category Form"
+},
+   "post": {
+        "inputInfo": [
+            {
+                "id": "title",
+                "required": true,
+                "name": "title",
+                "lable": "Title"
+            },
+            {
+                "id": "body",
+                "required": true,
+                "name": "body",
+                "lable": "Description"
+            },
+            {
+                "id": "userId",
+                "required": true,
+                "type": "select",
+                "options":[],
+                "name": "userId",
+                "lable": "User name" 
+            }
+        ],
+        "title": "Post Form"
+},
+
+   "user": {
+        "inputInfo": [
+            {
+                "id": "title",
+                "required": true,
+                "name": "username",
+                "lable": "User Name",
+                "characterOnly": true
+            },
+            {
+                "id": "body",
+                "required": true,
+                "name": "email",
+                "lable": "Email Id"
+            },
+            {
+                "id": "userId",
+                "required": true,
+                "name": "phnumber",
+                "lable": "Phone Number", 
+                "numberOnly" : true
+            },
+            {
+                "id": "userId",
+                "required": true,
+                "name": "password",
+                "lable": "Password" 
+            }
+        ],
+        "title": "User Form"
+}
+
+
+}

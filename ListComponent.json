@@ -1,0 +1,20 @@
+{
+    "product": [
+                 { "field": "userId", "headerName": "userId", "width": 100 },
+                 { "field": "id", "headerName": "Id", "width": 100 },
+                 { "field": "title", "headerName": "title", "width": 150 },
+                 { "field": "completed", "headerName": "completed", "width": 150 }
+               ],
+     
+     "component": [
+                 { "field": "Id", "headerName": "Id", "width": 100 },
+                 { "field": "Product Name", "headerName": "Product Name", "width": 150 },
+                 { "field": "Component Name", "headerName": "Component Name", "width": 100 },
+                 { "field": "Description", "headerName": "Description", "width": 150 }
+                 
+               ],
+     "category": [
+                 { "field": "Id", "headerName": "Id", "width": 100 },
+                 { "field": "Category", "headerName": "Category", "width": 100 }
+               ]
+ }
